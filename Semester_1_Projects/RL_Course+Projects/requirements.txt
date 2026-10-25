@@ -1,0 +1,5 @@
+jupyter
+ipykernel
+stable-baselines3[extra]
+gymnasium
+numpy < 2.0
