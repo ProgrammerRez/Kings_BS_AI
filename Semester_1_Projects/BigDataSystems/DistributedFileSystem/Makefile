@@ -1,8 +1,10 @@
+SRC_DIR = ./main
+
 build:
-	go build -o bin/fs
+	go build -o bin/app $(SRC_DIR)
 
 run: build
-	./bin/fs
+	./bin/app
 
 test:
-	go test -v ./...
+	go test ./... -v
